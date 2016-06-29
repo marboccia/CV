@@ -1,0 +1,269 @@
+@import url(data:application/octet-stream;base64,QGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICdSYWxld2F5JzsKICBmb250LXN0eWxlOiBub3JtYWw7CiAgZm9udC13ZWlnaHQ6IDEwMDsKICBzcmM6IGxvY2FsKCdSYWxld2F5IFRoaW4nKSwgbG9jYWwoJ1JhbGV3YXktVGhpbicpLCB1cmwoaHR0cHM6Ly9mb250cy5nc3RhdGljLmNvbS9zL3JhbGV3YXkvdjExL1JKTWxBb0ZYWFFFelpvTVNVdGVHV0tDV2N5bmZfY0R4WHdDTHhpaXhHMWMudHRmKSBmb3JtYXQoJ3RydWV0eXBlJyk7Cn0KQGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICdSYWxld2F5JzsKICBmb250LXN0eWxlOiBub3JtYWw7CiAgZm9udC13ZWlnaHQ6IDQwMDsKICBzcmM6IGxvY2FsKCdSYWxld2F5JyksIGxvY2FsKCdSYWxld2F5LVJlZ3VsYXInKSwgdXJsKGh0dHBzOi8vZm9udHMuZ3N0YXRpYy5jb20vcy9yYWxld2F5L3YxMS9iSWNZM18zSk5xVVZSQVFRUk5WdGVRLnR0ZikgZm9ybWF0KCd0cnVldHlwZScpOwp9CkBmb250LWZhY2UgewogIGZvbnQtZmFtaWx5OiAnUmFsZXdheSc7CiAgZm9udC1zdHlsZTogbm9ybWFsOwogIGZvbnQtd2VpZ2h0OiA3MDA7CiAgc3JjOiBsb2NhbCgnUmFsZXdheSBCb2xkJyksIGxvY2FsKCdSYWxld2F5LUJvbGQnKSwgdXJsKGh0dHBzOi8vZm9udHMuZ3N0YXRpYy5jb20vcy9yYWxld2F5L3YxMS9KYnRNenFMYVliYmJDTDlYNkV2YUl5M1VTQm5TdnBrb3BRYVVSLTJyN2lVLnR0ZikgZm9ybWF0KCd0cnVldHlwZScpOwp9Cg==);
+
+/* selector universal */
+*{
+	box-sizing: border-box;
+	/* descuenta del width y height, lo sumado en padding y border */
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	/*
+		margin-top: ;
+		margin-right: ;
+		margin-bottom: ;
+		margin-left: ;
+	*/
+}
+
+img{
+	max-width: 100%;
+}
+/* Resets */
+
+/* agrupación de selectores */
+ul, ol{
+	list-style: none; /* elimina la viñeta */
+	margin: 0;
+	padding: 0;
+	/*
+		padding-top: ;
+		padding-right: ;
+		padding-bottom: ;
+		padding-left: ;
+	*/
+}
+
+figure{
+	margin: 0;
+}
+
+/*
+	tamaños
+		ancho - width:;
+		alto - height:;
+
+	modelo de caja - box model
+		- width
+		- height
+		- padding
+		- border
+			border-style [solid | dashed | dotted | double]
+			border-width
+			border-color
+			border: ;
+		- margin
+*/
+
+.cv{
+	border: solid gray 3px;;
+	max-width: 1200px;
+	/*margin: auto;*/
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+	border-radius: 20px
+
+}
+
+.main-header{
+	/*border: dashed red 1px;*/
+	max-width: 95%;
+	margin: auto;
+	/*	padding: 20px 0;*/
+	border-bottom: solid 3px;
+	color: gray;
+}
+
+.main-header img{
+	position: absolute;
+	float: right;
+	top: 8%;
+	right: 4%;
+	border-radius: 20%;
+
+}
+
+.main-header h1, h2{
+	margin: 0px;
+	padding: 0px;
+	/*border: dashed red 1px;*/
+}
+
+.main-header h1{
+	margin-top: 40px;
+}
+
+
+.cleaner{
+	clear: both;
+}
+
+.redes {
+	font-size: 50px;
+	float: left;
+	padding-right: 10px;
+}
+
+.redes i{
+	color: #386E7F !important;
+}
+
+.perfil {
+	/*border: dashed red 1px;*/
+	color: gray;
+	max-width: 95%;
+	margin: auto;
+	margin-top: 20px;
+	border-bottom: solid gray 3px;
+}
+
+
+.habilidades {
+	/*border: dashed red 1px;*/
+	max-width: 95%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: gray;
+
+}
+
+.habilidades1 {
+	/*border: dashed red 1px;*/
+	margin: auto;
+	float: left;
+	text-align: center;
+	width: 25%;
+	border-bottom: solid gray 3px;
+	color: gray;
+}
+
+
+.habilidades-iconos{
+	font-size: 100px;
+/*	max-width: 25%;
+	float: left;*/
+
+}
+
+.habilidades-star{
+	font-size: 15px;
+/*	max-width: 25%;
+	float: left;*/
+
+}
+
+.educacion {
+	/*border: dashed red 1px;*/
+	max-width: 95%;
+	margin: auto;
+	color: gray;
+}
+
+.titulos{
+	/*border: dashed red 1px;*/
+	padding: 20px;
+}
+
+.titulos1{
+	/*border: dashed red 1px;*/
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.titulos-lugar{
+	/*border: dashed red 1px;*/
+	font-size: 15px;
+	padding-left: 50px;
+	/*font-weight: bold;*/
+}
+
+
+
+.contacto {
+	/*border: dashed red 1px;*/
+	max-width: 95%;
+	margin: auto;
+	border-top: solid gray 3px;
+}
+
+
+.title-contact{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 40px;
+	color: grey;
+	margin-bottom: 20px;
+}
+
+.title-contact-texto{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+.ingreso{
+	/*border: dashed red 1px;*/
+	width: 45%;
+	background-color: white;
+	top: 30px;
+	margin-left: 30px;
+	float: left;
+
+}
+
+.ingreso input{
+	width: 98%;
+	height: 60px;
+	font-size: 16px;
+	font-family: inherit;
+	margin-bottom: 20px;
+	box-shadow:
+		0 1px 5px inset;
+}
+
+
+.ingreso-msj{
+	/*border: dashed red 1px;*/
+	width: 45%;
+	background-color: white;
+	float: left;
+}
+
+.ingreso-msj textarea{
+	width: 98%;
+	min-height: 220px;
+	font-size: 16px;
+	font-family: inherit;
+	box-shadow:
+		0 1px 5px inset;
+}
+
+
+.boton-enviar-consulta{
+	margin-left: 39.791667%;
+	margin-top: 20px;
+    background-color: #386E7F;
+    color: white;
+    padding: 1.25% 2.5%;
+    font-size: 16px;
+    border-radius: 8px;
+	width: 16.6666%;
+
+}
+
+
+@media (max-width: 600px){
+ 
+ .main-header img {
+ 	display: none;
+ }
+
+.habilidades1{
+	width: 50%;
+	margin-top: 50px;
+}
+
+}
