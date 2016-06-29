@@ -222,6 +222,7 @@ figure{
 	margin-bottom: 20px;
 	box-shadow:
 		0 1px 5px inset;
+	padding: 10px;
 }
 
 
@@ -239,6 +240,7 @@ figure{
 	font-family: inherit;
 	box-shadow:
 		0 1px 5px inset;
+	padding: 10px;
 }
 
 
@@ -267,3 +269,13 @@ figure{
 }
 
 }
+
+
+@media (max-width: 400px){
+
+.boton-enviar-consulta{
+   font-size: 50%;
+ 
+}
+
+	}
